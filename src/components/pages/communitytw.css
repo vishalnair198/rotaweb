@@ -1,0 +1,94 @@
+.communitytw{
+    margin-top: -12%;
+    width: 100%;
+    height: 105vh;
+    background-image: url(../../assets/stationdis1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.informat{
+    background-color: rgb(48, 48, 23);
+    width: 100%;
+    height: 100vh;
+    top: 110%;
+    color: aliceblue;
+    clip-path:circle(30%);
+}
+#portiontw {
+    top: 93%;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: antiquewhite;
+    
+  }
+  
+  .subport{
+    border-radius: 20px;
+    width: 85%;
+    height: 100vh;
+    margin-top: 55%;
+    margin-left: 8%;
+}
+  
+  .po{
+    top: 100%;
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    
+  }
+  
+@media only screen and (min-width:320px) and (max-width:480px){
+    .fotter{
+        position: absolute;
+       margin-top: 200%;
+        margin-left: 0%;
+        z-index: 3;
+        width: 100%;
+      }
+      #portiontw {
+        top: 90%;
+        left: 0%;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        background-color: antiquewhite;
+      }
+      #portiont {
+        top: 200%;
+        left: 0%;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        background-color:rgb(121, 71, 7);
+      }
+      .informat{
+        background-color: rgb(48, 48, 23);
+        width: 100%;
+        height: 80vh;
+        top: 10%;
+        left: 0%;
+        position: absolute;
+        color: aliceblue;
+        clip-path:circle(30%);
+        
+      }
+}
+@media only screen and (min-width:481px) and (max-width:640px){
+    .fotter{
+        position: absolute;
+       margin-top: 200%;
+        margin-left: 0%;
+        z-index: 3;
+        width: 100%;
+      }
+}
+@media only screen and (min-width:641px) and (max-width:800px){
+    .fotter{
+        position: absolute;
+        margin-left: 0%;
+        z-index: 3;
+        width: 100%;
+      }
+}
